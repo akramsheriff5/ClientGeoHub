@@ -130,13 +130,13 @@ function LoginPage({ onLogin = () => {} }) {
                 >
                   {loading ? 'Signing in...' : 'Sign In'}
                 </Button>
-                
+{/*                 
                 <Link
                   href="#" underline="hover"
                   sx={{ color: '#4285f4', fontSize: 14, textAlign: 'center', mt: 1 }}
                 >
                   Forgot password?
-                </Link>
+                </Link> */}
               </Box>
             )}
 
@@ -177,7 +177,7 @@ function LoginPage({ onLogin = () => {} }) {
               mt: 3, p: 1.5, textAlign: 'center', fontSize: 15
             }}>
               {mode === 'login' 
-                ? 'Demo: Use any registered email to login' 
+                ? '' 
                 : 'Create your account to get started'
               }
             </Box>
